@@ -1,3 +1,6 @@
+/* Work in Progress, this basically takes what I did with lights, and adds an LCD display, and RTC to show me the time of 
+day on command.. the code runs very slow on the Arduino I have currently thou, so I'm working on ways to optomise it. */
+
 #include "Arduino.h"
 #define RELAY1 7
 #if !defined(SERIAL_PORT_MONITOR)
